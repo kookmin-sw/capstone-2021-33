@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# Parallel blockchain validation with Utreexo Compact State Nodes (Utreexo Compact State Node를 사용하여 블록체인 병열검증)
 
-You can use the [editor on GitHub](https://github.com/kookmin-sw/cap-template/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![photo_2021-04-04 23 40 00](https://user-images.githubusercontent.com/37185887/113512332-19325600-959f-11eb-8c60-b0b48417158a.jpeg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**팀페이지 주소** -> https://kookmin-sw.github.io/capstone-2021-33
 
-### Markdown
+**팀 repository들** -> https://github.com/mit-dci/utreexo, https://github.com/mit-dci/utcd, https://github.com/mit-dci/libutreexo, https://github.com/mit-dci/rustreexo
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 프로젝트 소개
 
-```markdown
-Syntax highlighted code block
+[Utreexo](https://dci.mit.edu/utreexo)는 Tadge Dryja가 2018에 처음 논문으로 발표하였으며 이는 수천개의 element가 포함된 set을 몇개만의 element로 represent하게 할 수 있는 Data Structure이다. Utreexo를 사용하면 블록체인의 state를 아주 적은 데이터로 표현할 수 있게 되며 이를 사용하여 블록체인을 병열로 검증하는 노드를 구축하였다. 블록체인 검증을 빨리하여 우리는 블록체인의 제일 큰 문제중 하나인 확장성 문제에 좋은 영향을 끼친다.
 
-# Header 1
-## Header 2
-### Header 3
+## Abstract
 
-- Bulleted
-- List
+We create a Bitcoin node in where the Bitcoin blockchain is validated in parallel. The overhead to parallelization is removed with Utreexo compact state nodes. This allows for a better utilization of the CPU as the need for disk access is eliminated with Utreexo Compact State Nodes. With this, we are able to verify the Bitcoin blockchain faster, allowing for on-chain scalability in Bitcoin.
 
-1. Numbered
-2. List
+### 중간 보고서
 
-**Bold** and _Italic_ and `Code` text
+### 팀 소개
 
-[Link](url) and ![Image](src)
-```
+#### Tadge Dryja
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+~~~
+Bio: MIT Media Lab 소속 research scientist. 블록체인 확장성 프로토콜인 Lightning Network 논문의 공동 저자이고 Discreet Log Contracts라는 스마트 컨트랙트 논문의 저자이다.
+Role: Maintainer
+Profile: https://dci.mit.edu/thaddeus-dryja-tadge, https://github.com/adiabat
+~~~
 
-### Jekyll Themes
+#### Niklas Goegge
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kookmin-sw/cap-template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+~~~
+Bio: Utreexo repository의 contributor이다. Mozilla의 Firefox팀에 있고 현재는 Utreexo의 C++ 버전을 구현하고 있다.
+Role: Contributor
+Profile: https://github.com/dergoegge
+~~~
 
-### Support or Contact
+#### 김유상/Calvin Kim
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+~~~
+Bio: Utreexo 프로젝트의 contributor이고 비트코인 거래소, Bitmex의 Research division에서 grant를 받아 프로젝트를 진행 및 연구결과를 기여하고 있다.
+Role: Contributor
+Profile: https://blog.bitmex.com/calvin-kim/, https://github.com/kcalvinalvin
+~~~
+
+### 사용법
+
+https://github.com/mit-dci/utreexo 에 있는 README를 참조.
