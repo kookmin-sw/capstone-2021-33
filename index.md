@@ -45,3 +45,11 @@ Profile: https://blog.bitmex.com/calvin-kim/, https://github.com/kcalvinalvin
 ### 사용법
 
 https://github.com/mit-dci/utreexo 에 있는 README를 참조.
+
+### Utreexo 관련 언론기사
+
+[김유상/Calvin Kim grant관련](https://decrypt.co/39630/bitmex-grants-40000-to-developer-of-bitcoin-scalability-project)
+
+[작년 첫 demonstration release 관련](https://www.coindesk.com/mit-lightning-creator-unveils-first-demonstration-of-bitcoin-scaling-tech)
+
+[Utreexo를 기술적인 측면에서 다룬 기사](https://bitcoinmagazine.com/technical/bitcoins-growing-utxo-problem-and-how-utreexo-can-help-solve-it)
