@@ -1,77 +1,47 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=392997&assignment_repo_type=GroupAssignmentRepo)
-# Welcome to GitHub
+# Parallel blockchain validation with Utreexo Compact State Nodes (Utreexo Compact State Node를 사용하여 블록체인 병열검증)
 
-캡스톤 팀 생성을 축하합니다.
+![photo_2021-04-04 23 40 00](https://user-images.githubusercontent.com/37185887/113512332-19325600-959f-11eb-8c60-b0b48417158a.jpeg)
 
-## 팀소개 및 페이지를 꾸며주세요.
+**팀페이지 주소** -> https://kookmin-sw.github.io/capstone-2021-33
 
-- 프로젝트 소개
-  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
-  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
+**팀 repository들** -> https://github.com/mit-dci/utreexo, https://github.com/mit-dci/utcd, https://github.com/mit-dci/libutreexo, https://github.com/mit-dci/rustreexo
 
-- 팀페이지 꾸미기
-  - 프로젝트 소개 및 팀원 소개
-  - index.md 예시보고 수정.
+## 프로젝트 소개
 
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
+[Utreexo](https://dci.mit.edu/utreexo)는 Tadge Dryja가 2018에 처음 논문으로 발표하였으며 이는 수천개의 element가 포함된 set을 몇개만의 element로 represent하게 할 수 있는 Data Structure이다. Utreexo를 사용하면 블록체인의 state를 아주 적은 데이터로 표현할 수 있게 되며 이를 사용하여 블록체인을 병열로 검증하는 노드를 구축하였다. 블록체인 검증을 빨리하여 우리는 블록체인의 제일 큰 문제중 하나인 확장성 문제에 좋은 영향을 끼친다.
 
-**팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'
+## Abstract
 
-**예시)** 2020년 0조  https://kookmin-sw.github.io/capstone-2020-0/
+We create a Bitcoin node in where the Bitcoin blockchain is validated in parallel. The overhead to parallelization is removed with Utreexo compact state nodes. This allows for a better utilization of the CPU as the need for disk access is eliminated with Utreexo Compact State Nodes. With this, we are able to verify the Bitcoin blockchain faster, allowing for on-chain scalability in Bitcoin.
 
+### 중간 보고서
 
-## 내용에 아래와 같은 내용들을 추가하세요.
+### 팀 소개
 
-### 1. 프로잭트 소개
+#### Tadge Dryja
 
-프로젝트
+~~~
+Bio: MIT Media Lab 소속 research scientist. 블록체인 확장성 프로토콜인 Lightning Network 논문의 공동 저자이고 Discreet Log Contracts라는 스마트 컨트랙트 논문의 저자이다.
+Role: Maintainer
+Profile: https://dci.mit.edu/thaddeus-dryja-tadge, https://github.com/adiabat
+~~~
 
-### 2. 소개 영상
+#### Niklas Goegge
 
-프로젝트 소개하는 영상을 추가하세요
+~~~
+Bio: Utreexo repository의 contributor이다. Mozilla의 Firefox팀에 있고 현재는 Utreexo의 C++ 버전을 구현하고 있다.
+Role: Contributor
+Profile: https://github.com/dergoegge
+~~~
 
-### 3. 팀 소개
+#### 김유상/Calvin Kim
 
-팀을 소개하세요.
+~~~
+Bio: Utreexo 프로젝트의 contributor이고 비트코인 거래소, Bitmex의 Research division에서 grant를 받아 프로젝트를 진행 및 연구결과를 기여하고 있다.
+Role: Contributor
+Profile: https://blog.bitmex.com/calvin-kim/, https://github.com/kcalvinalvin
+~~~
 
-팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
+### 사용법
 
-### 4. 사용법
-
-소스코드제출시 설치법이나 사용법을 작성하세요.
-
-### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
-
-
-## Markdown을 사용하여 내용꾸미기
-
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
+https://github.com/mit-dci/utreexo 에 있는 README를 참조.
