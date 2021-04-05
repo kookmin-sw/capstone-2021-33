@@ -22,7 +22,11 @@ We create a Bitcoin node in where the Bitcoin blockchain is validated in paralle
 #### Tadge Dryja
 
 ~~~
-Bio: MIT Media Lab 소속 research scientist. 블록체인 확장성 프로토콜인 Lightning Network 논문의 공동 저자이고 Discreet Log Contracts라는 스마트 컨트랙트 논문의 저자이다.
+Bio: MIT Media Lab 소속 research scientist.
+     블록체인 확장성 프로토콜인 Lightning Network 논문의 공동 저자이고
+     Discreet Log Contracts라는 스마트 컨트랙트 논문의 저자이다.
+     또 Tadge Dryja의 Hashimoto 알고리즘은 변형되어 Ethereum의
+     채굴 알고리즘에 활용되고 있다.
 Role: Maintainer
 Profile: https://dci.mit.edu/thaddeus-dryja-tadge, https://github.com/adiabat
 ~~~
@@ -30,7 +34,8 @@ Profile: https://dci.mit.edu/thaddeus-dryja-tadge, https://github.com/adiabat
 #### Niklas Goegge
 
 ~~~
-Bio: Utreexo repository의 contributor이다. Mozilla의 Firefox팀에 있고 현재는 Utreexo의 C++ 버전을 구현하고 있다.
+Bio: Utreexo repository의 contributor이다. Mozilla의 Firefox팀에
+     있고 현재는 Utreexo의 C++ 버전을 구현하고 있다.
 Role: Contributor
 Profile: https://github.com/dergoegge
 ~~~
@@ -38,7 +43,8 @@ Profile: https://github.com/dergoegge
 #### 김유상/Calvin Kim
 
 ~~~
-Bio: Utreexo 프로젝트의 contributor이고 비트코인 거래소, Bitmex의 Research division에서 grant를 받아 프로젝트를 진행 및 연구결과를 기여하고 있다.
+Bio: Utreexo 프로젝트의 contributor이고 비트코인 거래소, Bitmex의
+     Research division에서 grant를 받아 프로젝트를 진행 및 연구결과를 기여하고 있다.
 Role: Contributor
 Profile: https://blog.bitmex.com/calvin-kim/, https://github.com/kcalvinalvin
 ~~~
