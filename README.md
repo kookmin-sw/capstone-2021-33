@@ -17,6 +17,8 @@ We create a Bitcoin node in where the Bitcoin blockchain is validated in paralle
 
 ### 중간 보고서
 
+Github repo에 upload되어 있음.
+
 ### 팀 소개
 
 #### Tadge Dryja
