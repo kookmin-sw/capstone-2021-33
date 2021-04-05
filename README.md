@@ -8,7 +8,8 @@
 
 ## 프로젝트 소개
 
-[Utreexo](https://dci.mit.edu/utreexo)는 Tadge Dryja가 2018에 처음 논문으로 발표하였으며 이는 수천개의 element가 포함된 set을 몇개만의 element로 represent하게 할 수 있는 Data Structure이다. Utreexo를 사용하면 블록체인의 state를 아주 적은 데이터로 표현할 수 있게 되며 이를 사용하여 블록체인을 병열로 검증하는 노드를 구축하였다. 블록체인 검증을 빨리하여 우리는 블록체인의 제일 큰 문제중 하나인 확장성 문제에 좋은 영향을 끼친다.
+비트코인 블록체인을 병열로 검증하는 노드를 구성하는 프로젝트이다. 블록체인의 병렬처리에 bottleneck이 되는 overhead는 
+[Utreexo](https://dci.mit.edu/utreexo)라는 Data Structure로 해결할 수 있다. 이로하여 블록체인 검증을 빨리하여 우리는 블록체인의 제일 큰 문제중 하나인 확장성 문제에 좋은 영향을 끼친다.
 
 ## Abstract
 
